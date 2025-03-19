@@ -7,6 +7,10 @@ function subtrair(numUm, numDois) {
 }
 
 function multiplicar(numUm, numDois) {
+    if (numUm > 1) {
+        numUm ++
+        numUm --
+    }
     return numUm * numDois
 }
 
